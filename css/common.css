@@ -1,0 +1,16 @@
+/* RESET */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* STYLE GENERAL COLOR */
+
+:root {
+    --primary-Color:#0084fd;
+    --primary-Colorlight:#b5ddff;
+    --secondary-Color: #9792e4;
+    --third-Color:#fdc15f;
+}

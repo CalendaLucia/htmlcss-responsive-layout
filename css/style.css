@@ -1,0 +1,62 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.under-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-Color) ;
+    padding: 10px 0px;
+}  
+
+.cards {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.box {
+    background-color: var(--primary-Colorlight);
+    margin: 10px 10px;
+    height: 100px;
+}
+
+.container-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--secondary-Color);
+
+}
+
+.container-infoPartner h3, p {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.partner-box {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 15px 0px;
+}
+
+.benefit-box {
+    margin: 5px 5px;
+    background-color: white;
+    width: calc(100% / 4);
+}
+
+.box-about-us {
+    width: calc(100% / 2);
+    padding: 15px 5px;
+}
+
+
