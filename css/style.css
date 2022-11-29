@@ -31,17 +31,21 @@
     padding: 8px 8px;
 }
 
-.menu-icon {
+.menu-icon .fa-bars {
     display: none;
+    color: white;
+    font-size: 30px;
 }
 
 /* STYLE SECTION FEATURES */
 
 .card {
+   max-width: 100%;
    width: 60%;
    margin: 0 auto;
    display: flex;
    justify-content: space-between;
+   align-items: center;
    flex-wrap: wrap;
 }
 
@@ -57,16 +61,45 @@
 
 .big-box {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .box-img img {
-    width: 60%;
+    width: 100%;
 }
 
+
 .box-info {
-   padding: 5px 15px;
+   padding: 20px 15px;
+   width: 100%;
+   margin-bottom: 80px;
 }
+
+.box-info p {
+    font-size: 12px;
+}
+
+ .box-info .fa-solid {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;  
+}
+
+.card  button {
+    background-color: var(--primary-Color);
+    font-size: 10px;
+ }
+
+ .card .fa-apple  {
+    color: white;
+    padding: 0px 5px;
+ }
+
+ .card  .left {
+    color: white;
+    padding: 0px 5px;
+ }
 
 /* STYLE SECTION PLANNING */
 
@@ -161,37 +194,29 @@
     line-height: 20px;
     width: 100%;
     margin-left: 30px;
-
-  
 }
 
 .info-partner p, h6 {
     font-size: 15px;
     text-align: start;
     color: white;
-  
+    padding: 20px 0px;
 }
 
 .virgolette {
     color: white;
     font-size: 30px;
-   
-    
 }
-
-
 
 .partner-box {
     background-color: var(--secondary-Color);
     display: flex;
     align-items: center;
-
     border-radius: 30px;
     width: 80%;
     margin: 0 auto;
     margin-top: 20px;
-    padding: 20px 10px;
- 
+    padding: 15px 10px;
 }
 
 #partners {
@@ -203,33 +228,145 @@
 
 /* STYLE SECTION BENEFIT */
 
+.container-benefit-box {
+     width:60% ;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 20px 0px;
+}
+
 .benefit-box {
     margin: 5px 5px;
     background-color: white;
-    width: calc(100% / 4);
+    width: calc((100% / 3) - 50px);
+    border-radius: 20px;
+    color: var(--secondary-Color)
+}
+
+.benefit-box h3 {
+    font-size: 40px;
+    color: var(--secondary-Color);
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.benefit-box h6 {
+    font-size: 15px;
+    color: var(--secondary-Color);
+    padding: 0px 20px;
+    line-height: 10px;
+}
+
+.benefit-box p {
+    font-size: 10px;
+    color: var(--secondary-Color);
+    padding: 20px 20px;
+    text-align: start;
+    
+}
+
+.benefit-box button {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: var(--secondary-Color);
+    color: white;
+    padding: 5px 40px;
 }
 
 /* STYLE SECTION ABOUT US*/
 
 .box-about-us {
-    width: 20% ;
-    padding: 15px 5px;
+    padding: 20px 10px;
+}
+
+.box-about-us img {
+    object-fit: cover;
+    width: 200px ;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.box-about-us h2 {
+    color: var(--secondary-Color);
+    font-size: 40px;
+    text-align: start;
+}
+
+.box-about-us p {
+  text-align: start;
+  width: 80%;
+  padding: 20px 0px;
+}
+
+.box-about-us h5 {
+    color: var(--secondary-Color);
+    width: 80%;
+    line-height: 25px;
+}
+
+.box-about-us button {
+    background-color: var(--secondary-Color);
+    margin-top: 20px;
+    
+}
+
+.box-about-us .fa-linkedin {
+    color: white;
+}
+  
+ /* STYLE SECTION GET STARTED */
+
+ .container-get-started  {
     text-align: center;
 }
 
-/* STYLE SECTION GET STARTED */
+.container-get-started p {
+    color: #d4d3f4;
+    font-size: 10px;
+    width: 20%;
+    margin: 0 auto;
+}
 
+.container-get-started h4 {
+    color: white;
+    font-size: 25px;
+}
 
+.container-get-started h2 {
+    color: #fdc15f;
+    font-size: 50px;
+}
 
+.container-get-started a {
+      color: var(--secondary-Color);
+      font-size: 10px;
+}
 
+.container-get-started button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 5px 0px;
+}
 
+/* STYLE SECTION FOOTER */
 
+.container-footer {
+    background-color:#333333;
+}
 
+.container-footer p {
+     font-size: 10px;
+     width: 30%;
+     margin: 0 auto;
+     color: white;
+}
 
+.container-footer a {
+    color: var(--secondary-Color);
+    text-decoration: underline;
+}
 
-
-
-
-/* STYLE SECTION  */
 
 

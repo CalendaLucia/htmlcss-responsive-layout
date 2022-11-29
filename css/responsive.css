@@ -1,0 +1,8 @@
+/* RESPONSIVE */
+
+@media screen and  ( min-width: 425px ) {
+    
+    .menu-icon .fa-bars {
+        display: block;
+    }
+}
