@@ -1,52 +1,207 @@
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
+/* STYLE HEADER */
 
-.under-container {
+.under-container  {
     display: flex;
     justify-content: space-around;
     background-color: var(--primary-Color) ;
     padding: 10px 0px;
-}  
+} 
 
-.cards {
-    width: 50%;
-    margin: 0 auto;
+.logo img  {
+   width: 60%;
+} 
+
+.nav-bar ul {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    width: 30vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar li, a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+ 
+}
+
+.nav-bar button {
+    border-radius: 10px;
+    border: none;
+    padding: 8px 8px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+/* STYLE SECTION FEATURES */
+
+.card {
+   width: 60%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 .box {
+    width: calc((100% / 3) - 10px);
+    margin: 8px 0px;
     background-color: var(--primary-Colorlight);
-    margin: 10px 10px;
-    height: 100px;
 }
+
+.card .box:first-child {
+    width: 66%;
+}
+
+.big-box {
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-img img {
+    width: 60%;
+}
+
+.box-info {
+   padding: 5px 15px;
+}
+
+/* STYLE SECTION PLANNING */
 
 .container-box {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 20px;
-    background-color: var(--secondary-Color);
-
+    align-items: center;
+    margin-top: 10px;
+    width: 60%;
+    margin: 0 auto;
 }
 
-.container-infoPartner h3, p {
+.planning-box-img img {
+    width: 80%;
+    padding: 70px 0px;
+}
+
+.planning-box-img p, h3 {
+    text-align: start;
+    color: white;
+}
+
+.box-white {
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 200px;
+    border-radius: 40px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.box-white img {
+  width: 100%;
+  padding: 20px 40px;
+}
+
+.box-white  p, .box-white  h3 {
+   color: black;
+   text-align: center;
+   font-weight: bold;
+}
+
+.bottom-img2 {
+    padding: 0px 20px;
+}
+
+.bottom-img1 {
+    padding: 0px 20px;
+    width: 75%;
+}
+
+.bottom-img1 h3{
+    padding: 15px 0px;
+    font-size: 30px;
+}
+
+.fa-arrow-down {
+    color: black;
+    margin-left: 90px;
+    background-color: var(--secondary-Color);
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 15px 17px;
+}
+
+/* STYLE SECTION PARTNERS */
+
+.container-infoPartner h2, p {
     text-align: center;
     padding: 10px 0px;
 }
 
-.partner-box {
-    background-color: aqua;
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    margin: 15px 0px;
+.container-infoPartner h2 {
+    color: var(--secondary-Color);
+    font-size: 35px;
 }
+
+.container-infoPartner P:first-child {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 0px 10px;
+}
+
+.info-partner {
+    line-height: 20px;
+    width: 100%;
+    margin-left: 30px;
+
+  
+}
+
+.info-partner p, h6 {
+    font-size: 15px;
+    text-align: start;
+    color: white;
+  
+}
+
+.virgolette {
+    color: white;
+    font-size: 30px;
+   
+    
+}
+
+
+
+.partner-box {
+    background-color: var(--secondary-Color);
+    display: flex;
+    align-items: center;
+
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 10px;
+ 
+}
+
+#partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* STYLE SECTION BENEFIT */
 
 .benefit-box {
     margin: 5px 5px;
@@ -54,9 +209,27 @@
     width: calc(100% / 4);
 }
 
+/* STYLE SECTION ABOUT US*/
+
 .box-about-us {
-    width: calc(100% / 2);
+    width: 20% ;
     padding: 15px 5px;
+    text-align: center;
 }
+
+/* STYLE SECTION GET STARTED */
+
+
+
+
+
+
+
+
+
+
+
+
+/* STYLE SECTION  */
 
 

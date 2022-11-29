@@ -6,11 +6,69 @@
     box-sizing: border-box;
 }
 
-/* STYLE GENERAL COLOR */
+/* STYLE GENERAL COLOR AND FONT */
 
 :root {
     --primary-Color:#0084fd;
     --primary-Colorlight:#b5ddff;
     --secondary-Color: #9792e4;
     --third-Color:#fdc15f;
+    --paragraph-color:#5a6e7f;
 }
+
+body {
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.container {
+    max-width: 100vw;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.viola {
+    background-color: var( --secondary-Color);
+}
+
+.black {
+    color: black;
+ }
+
+ h5 {
+    color: var(--primary-Color);
+    font-size: 20px;
+ }
+
+ .box {
+    border-radius: 10px;
+ }
+
+ button {
+    border-radius: 10px;
+    border: none;
+    padding: 5px 30px;
+ }
+
+ /* STYLE SECTION CARDS  */
+
+ .box-info .start {
+    text-align: start;
+    color: var(--paragraph-color);
+    font-weight: bold;
+ }
+
+ .box-info h5, p {
+    text-align: center;
+ }
+
+ .fa-solid {
+    color: var(--primary-Color);
+    margin: 10px 0px 10px 70px;
+ }
+
+ 
+ 
