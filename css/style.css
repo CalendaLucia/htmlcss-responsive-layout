@@ -273,6 +273,13 @@
      padding: 20px 0px;
 }
 
+.title-benefit h2 {
+     color: white;
+     font-size: 30px;
+     text-align: center;
+     padding: 20px 0px;
+}
+
 .benefit-box {
     margin: 10px 0px;
     background-color: white;
