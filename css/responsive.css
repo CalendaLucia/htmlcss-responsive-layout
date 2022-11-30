@@ -1,6 +1,6 @@
 /* RESPONSIVE */
 
-@media screen and  ( min-width: 425px ) {
+/* @media screen and  ( max-width: 425px ) {
     
     .nav-bar li {
         display: none;
@@ -63,4 +63,8 @@
    
 
 
+} */
+
+@media screen and (max-width: ) {
+   
 }
