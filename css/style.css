@@ -115,6 +115,7 @@
  .box-info .fa-solid {
     max-width: 100%;
     width: 100%;
+    line-height: 50px;
     margin: 0 auto;
     text-align: center;
 }
